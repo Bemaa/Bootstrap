@@ -1,57 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap");
 body {
-    background-color: black;
-    color: white;
-    
-}
-#bema{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-    letter-spacing: 10px;
-    font-weight: bold;
+  background-color: black;
+  color: white;
 }
 
-#topmiddle{
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 30px;
-    line-height: 20px;
+body #bema {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 75px;
+  letter-spacing: 10px;
+  font-weight: bold;
 }
 
-#middlediv{
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    width: 100%;
+body #topmiddle {
+  font-family: Arial, "Helvetica", sans-serif;
+  padding-top: 30px;
+  line-height: 20px;
 }
 
-
-#bottom{
-    align-content: flex-end;
+body #middlediv {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  width: 100%;
 }
 
-footer {
-    position:absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    bottom:0;
-    width:100%;
-    height:60px;
-   text-align: center;
- }
- #work {
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 70px;
-     letter-spacing: 10px;
- }
-#work01{
-     color: white;
-     text-decoration: none;
- }
-:hover#work01{
-    color: rgb(190, 190, 190);
-}
- #rightmiddle {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 70px;
-    letter-spacing: 10px;
-    
+body #middlediv #work {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 70px;
+  letter-spacing: 20px;
 }
 
+body #middlediv #work01 {
+  color: white;
+  text-decoration: none;
+}
+
+body #middlediv #work01:hover {
+  color: #bebebe;
+}
+
+body #middlediv #rightmiddle {
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size: 70px;
+  letter-spacing: 10px;
+}
+
+body footer {
+  position: absolute;
+  font-family: Arial, "Helvetica", sans-serif;
+  font-size: 16px;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
