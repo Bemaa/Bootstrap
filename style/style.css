@@ -25,31 +25,18 @@ body #middlediv {
   width: 100%;
 }
 
-body #middlediv #work {
-  font-family: "Alegreya Sans", sans-serif;
-  font-size: 70px;
-  letter-spacing: 20px;
-}
-
-body #middlediv #work01 {
-  color: white;
-  text-decoration: none;
-}
-
-body #middlediv #work01:hover {
-  color: #bebebe;
-}
-
-body #middlediv #rightmiddle {
+body #middlediv #text {
   font-family: Arial, "Helvetica", sans-serif;
-  font-size: 70px;
-  letter-spacing: 10px;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 5px;
 }
 
 body footer {
   position: absolute;
   font-family: Arial, "Helvetica", sans-serif;
-  font-size: 16px;
+  font-size: 11px;
+  letter-spacing: 7px;
   bottom: 0;
   width: 100%;
   height: 60px;
